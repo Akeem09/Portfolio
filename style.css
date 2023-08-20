@@ -41,10 +41,10 @@
 }
 
 .profile-pic{
-    margin-left: 5em;
+    margin-left: 20%;
     border-radius: 50%;
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
     box-shadow: rgb(255, 255, 255) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;2
 }
 
