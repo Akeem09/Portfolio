@@ -200,16 +200,46 @@ section{min-width:0}
 .project-names{font-size:clamp(.9rem,1vw,1rem)}
 
 /* ===== 7. Footer ========================================================= */
-.footer{
-  background:var(--primary);
-  color:var(--light);
-  padding:3rem 1rem 5rem;
-  text-align:center;
-  position:relative;
+.footer {
+  background: #3586ff;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
 }
 
-.social-icon__link{font-size:clamp(1.8rem,4vw,3rem)}
-.menu__link{font-size:clamp(1rem,1.5vw,1.2rem)}
+.social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  transition: 0.3s;
+}
+.social-icon__link:hover {
+  transform: scale(1.2);
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.menu__link {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.menu__link:hover {
+  text-decoration: underline;
+}
 
 .wave{background-size:1000px 100px}
 
@@ -231,4 +261,18 @@ section{min-width:0}
 @media (max-width:480px){
   .head-text{letter-spacing:1px}
   .prev,.next{padding:8px}
+}
+
+@media screen and (max-width: 600px) {
+  .social-icon {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
