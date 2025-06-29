@@ -161,7 +161,7 @@ section{min-width:0}
 }
 .logo-content:hover{transform:translateY(-8px)}
 
-.logo-names{font-size:clamp(1.5rem,1vw,1rem)}
+.logo-names{font-size:clamp(0.9rem,1vw,1rem)}
 
 /* ===== 5. Certifications slider ========================================= */
 .certifications{padding:4rem 0;background:var(--light)}
