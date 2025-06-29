@@ -248,8 +248,11 @@ section{min-width:0}
   text-decoration: none;
   transition: 0.3s;
 }
+
+.menu > li{
+  text-decoration: none; }
 .menu__link:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .wave{background-size:1000px 100px}
