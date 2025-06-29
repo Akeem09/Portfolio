@@ -86,7 +86,7 @@ section{min-width:0}
   grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
   gap:var(--gutter);
   padding:var(--gutter);
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .card{                
@@ -98,9 +98,9 @@ section{min-width:0}
   border-radius:var(--radius);
   text-align:center;
   box-shadow:var(--shadow);
-  transition:transform .35s;
+  transition:transform .20s;
 }
-.card:hover{transform:translateY(-6px)}
+.card:hover{transform:translateY(-7px)}
 
 .card img{
   max-width:100%;
