@@ -59,12 +59,8 @@ section{min-width:0}
   border-radius:50%;
   object-fit:cover;
   box-shadow:var(--shadow);
-  position: fixed;
-  top: 100px;     /* adjust as needed */
-  right: 50px;   /* adjust as needed */
-  z-index: 1000;
 }
-}
+
 
 .address-links{
   margin-top:0.5rem;
