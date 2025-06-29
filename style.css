@@ -164,7 +164,7 @@ section{min-width:0}
 .logo-names{font-size:clamp(0.9rem,1vw,1rem)}
 
 
-.certifications{height:100vh; width:100%; padding:4rem 0;background:var(--light)}
+.certifications{padding:4rem 0;background:var(--light)}
 
 
 .slideshow-container{
