@@ -1,6 +1,6 @@
 var akeem = new Typed(".textttt",{
-    strings:["Frontend Developer.", "Backend Developer.", "Web-Designer.", "Student."],
-    typeSpeed: 30,
+    strings:["ServiceNow Developer.","Frontend Developer.", "Backend Developer.", "Web-Designer."],
+    typeSpeed: 20,
     backSpeed: 30,
     backDelay: 1000,
     loop:true
