@@ -168,7 +168,7 @@ section{min-width:0}
 
 
 .slideshow-container{
-  width:min(1200px,90%);
+  width:min(950px,80%);
   margin-inline:auto;
   position:relative;
 }
