@@ -159,13 +159,13 @@ section{min-width:0}
 }
 .logo-content:hover{transform:translateY(-8px)}
 
-.logo-names{font-size:clamp(.9rem,1vw,1rem)}
+.logo-names{font-size:clamp(1.5rem,1vw,1rem)}
 
 /* ===== 5. Certifications slider ========================================= */
 .certifications{padding:4rem 0;background:var(--light)}
 
 .slideshow-container{
-  width:min(600px,90%);
+  width:min(1200px,90%);
   margin-inline:auto;
   position:relative;
 }
