@@ -225,6 +225,7 @@ section{min-width:0}
   gap: 30px;
   margin-bottom: 20px;
   flex-wrap: wrap;
+ list-style: none;
 }
 .social-icon__link {
   font-size: 2rem;
@@ -279,6 +280,7 @@ section{min-width:0}
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+    list-style: none;
   }
 
   .menu {
