@@ -129,10 +129,15 @@ section{min-width:0}
 
 .logo-main{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
-  gap:clamp(1rem,2vw,2rem);
-  width:min(900px,90%);
+  grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+  place-items:center;
+  gap:clamp(1rem,1.5vw,2rem);
+
+
+  width:100%;
+  max-width:1200px;
   margin-inline:auto;
+  
   padding:var(--gutter);
   background:var(--light);
   border-radius:var(--radius);
